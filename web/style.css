@@ -15,10 +15,11 @@ body{
 .wrapper{
 	width: 100vw;
 	min-height: 100vh;
+	background:radial-gradient(#101939, #0A1027);
 }
 .landing{
 	height: 100vh;
-	background:radial-gradient(#101939, #0A1027);
+	/*background:radial-gradient(#101939, #0A1027);*/
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
@@ -34,9 +35,9 @@ nav{
 .icon{
 	width: 50px;
 	height: 50px;
-	position: relative;
-	top: 20%;
-	left: 90%;
+	position: fixed;
+    top: 7%;
+    left: 96%;
 	/*background: rgba(222, 164, 32, 0.5);*/
 	transform: translate(-50%, -50%);
 	z-index: 100;
@@ -192,4 +193,11 @@ div#hero>div>p{
 	font-size: 2rem;
 	color: #DEA420;
 	display: inline-block;
+}
+
+
+
+.about-section{
+	background-color: #1C2547;
+	padding: 5%;
 }

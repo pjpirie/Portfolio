@@ -2,6 +2,10 @@
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
+	
+}
+html{
+	font-size: 1.4vw;
 }
 body{
 	width: 100vw;
@@ -207,4 +211,44 @@ div#hero>div>p{
 .about-section{
 	background-color: #1C2547;
 	padding: 5%;
+}
+.service-section{
+	background:radial-gradient(#101939, #0A1027);
+	padding: 5%;
+}
+.work-section{
+	background-color: #1C2547;
+	min-height: 100vh;
+	padding: 5%;
+}
+.contact-section{
+	background:radial-gradient(#101939, #0A1027);
+	padding: 5%;
+	min-height: 100vh;
+}
+
+.footer{
+	/* border: 1px solid red; */
+	height: 10vh;
+	width: 100vw;
+	position: relative;
+	display: inline-block;
+	padding: 5%;
+}
+.footer>i.fa{
+	height: 5vh;
+	width: 5vh;
+	/* border: 1px solid yellow; */
+	font-size: 3rem;
+}
+
+
+::-webkit-scrollbar{
+	background:radial-gradient(#101939, #0A1027);
+	opacity: 0;
+	width: 3px;
+}
+::-webkit-scrollbar-thumb{
+	background:#C56464;
+	border-radius: 5px;
 }

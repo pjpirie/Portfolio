@@ -2,7 +2,7 @@
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-	
+
 }
 html{
 	font-size: 1.4vw;
@@ -240,6 +240,7 @@ div#hero>div>p{
 	width: 5vh;
 	/* border: 1px solid yellow; */
 	font-size: 3rem;
+	margin-left: 1vw;
 }
 
 

@@ -4,6 +4,23 @@
 	box-sizing: border-box;
 
 }
+#BG{
+    /*background: #141E30;  !* fallback for old browsers *!*/
+    /*background: -webkit-linear-gradient(to right, #243B55, #141E30);  !* Chrome 10-25, Safari 5.1-6 *!*/
+    /*background: linear-gradient(to right, #243B55, #141E30); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+
+   /* background: #232526; 
+    background: -webkit-radial-gradient(#414345, #232526); 
+    background: radial-gradient(#414345, #232526); */
+	
+
+/*	background: -webkit-radial-gradient(#101939, #0A1027);
+	background:radial-gradient(#101939, #0A1027);
+*/
+	background: #f1f1f1;
+    position: absolute;
+    z-index: 1;
+}
 html{
 	font-size: 1.4vw;
 }
@@ -28,6 +45,7 @@ body{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
+	z-index: 2;
 }
 
 
@@ -55,7 +73,7 @@ nav{
 	position: relative;
 	top: 50%;
 	left: 50%;
-	background-color: #f1f1f1;
+	background-color: #DEA420;
 	transform: translate(-50%, -50%);
 	transition: all 250ms;
 	z-index: 100;
@@ -69,7 +87,7 @@ nav{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	background-color: #f1f1f1;
+	background-color: #DEA420;
 	transform: translateX(-50%);
 	transform-origin: center;
 	transition: all 250ms;
@@ -171,7 +189,9 @@ nav{
 	width: 195px;
 }*/
 
-
+.superhidden{
+	display: none;
+}
 .hidden{
 	/*display: none;*/
 	height: 0%;
@@ -187,9 +207,13 @@ nav{
 
 div#hero{
 	position: relative;
+	font-size: 2rem;
+	font-weight: 700;
 	text-align: center;
 	grid-column: 2/3;
 	grid-row: 2/3;
+    z-index: 3;
+    /*border: 1px solid red;*/
 }
 div#hero>div{
 	top: 50%;
@@ -204,6 +228,7 @@ div#hero>div>p{
 	font-size: 2rem;
 	color: #DEA420;
 	display: inline-block;
+
 }
 
 

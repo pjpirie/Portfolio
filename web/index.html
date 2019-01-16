@@ -6,12 +6,14 @@
 	<title>Paul Pirie</title>
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<script src="script.js" defer></script>
+    <!-- <script src="BackgroundAnim.js" defer></script> -->
+    <script src="BG2.js" defer></script>
 	<link rel="stylesheet" href="https://use.typekit.net/zmm1yvq.css">
 	<link rel="stylesheet" type="text/css" href="style.css"> 
 </head>
 <body>
 	<div class="wrapper">
-		<div class="menu hidden">
+		<div class="menu hidden superhidden">
 			<div class="menu-item" id="item-1"><p>Home</p><span></span></div>
 			<div class="menu-item" id="item-2"><p>About</p><span></span></div>
 			<div class="menu-item" id="item-3"><p>Services</p><span></span></div>
@@ -19,6 +21,7 @@
 			<div class="menu-item" id="item-5"><p>Contact Me</p><span></span></div>
 		</div>
 		<div class="landing" id="home">
+			<canvas id="BG" blurable></canvas>
 			<nav>
 				<div class="icon" onclick="hamClicked()">
 					<div class="hamburger"></div>

@@ -11,7 +11,7 @@ const serviceAfter =	document.querySelector('.menu-item:nth-child(3)>span');
 const workAfter =	document.querySelector('.menu-item:nth-child(4)>span');
 const contactAfter =	document.querySelector('.menu-item:nth-child(5)>span');
 console.log("%c \r\n  _____            _   _____ _      _      \r\n |  __ \\          | | |  __ (_)    (_)     \r\n | |__) |_ _ _   _| | | |__) | _ __ _  ___ \r\n |  ___\/ _` | | | | | |  ___\/ | \'__| |\/ _ \\\r\n | |  | (_| | |_| | | | |   | | |  | |  __\/\r\n |_|   \\__,_|\\__,_|_| |_|   |_|_|  |_|\\___|\r\n  _____           _    __      _ _       \r\n |  __ \\         | |  \/ _|    | (_)      \r\n | |__) |__  _ __| |_| |_ ___ | |_  ___  \r\n |  ___\/ _ \\| \'__| __|  _\/ _ \\| | |\/ _ \\ \r\n | |  | (_) | |  | |_| || (_) | | | (_) |\r\n |_|   \\___\/|_|   \\__|_| \\___\/|_|_|\\___\/ \r\n  _                     _          _   \r\n | |                   | |        | |  \r\n | |     ___   __ _  __| | ___  __| |  \r\n | |    \/ _ \\ \/ _` |\/ _` |\/ _ \\\/ _` |  \r\n | |___| (_) | (_| | (_| |  __\/ (_| |_ \r\n |______\\___\/ \\__,_|\\__,_|\\___|\\__,_(_)","font-family:monospace");
-alert("This Website Is Still A Work In Progress.")
+// alert("This Website Is Still A Work In Progress.")
 
 function init(){
 	if(!hasClass(hamburger, "active")){
@@ -24,7 +24,6 @@ function init(){
 		console.log("Resize");
 	}
 }
-
 hamburger.classList.remove("active");
 console.log('X:'+getX(hamburger)+' Y:'+getY(hamburger)+' !X:'+getXOff(hamburger)+' !Y:'+getYOff(hamburger)+' W:'+getHeight(hamburger)+' H:'+getHeight(hamburger));
 

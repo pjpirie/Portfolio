@@ -4,23 +4,6 @@
 	box-sizing: border-box;
 
 }
-#BG{
-    /*background: #141E30;  !* fallback for old browsers *!*/
-    /*background: -webkit-linear-gradient(to right, #243B55, #141E30);  !* Chrome 10-25, Safari 5.1-6 *!*/
-    /*background: linear-gradient(to right, #243B55, #141E30); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
-
-   /* background: #232526; 
-    background: -webkit-radial-gradient(#414345, #232526); 
-    background: radial-gradient(#414345, #232526); */
-	
-
-/*	background: -webkit-radial-gradient(#101939, #0A1027);
-	background:radial-gradient(#101939, #0A1027);
-*/
-	background: #f1f1f1;
-    position: absolute;
-    z-index: 1;
-}
 html{
 	font-size: 1.4vw;
 }
